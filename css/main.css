@@ -170,6 +170,7 @@ h1
   color: #c3b076;
   font-family: 'Press Start 2P', cursive;
   font-family: 'Indie Flower', cursive;
+  font-size: 20px;
 }
 
 
@@ -177,10 +178,26 @@ h1
 @media (min-width:768px) {
 /*rules page temoignage*/
 
+/*rules common*/
 .temoignage1 figure , .temoignage2 figure , .temoignage3 figure
 {
   width: 20%;
 }
+
+.tex
+{
+  width: 65%;
+}
+/*end rules common*/
+
+
+/*rules article class fulls*/
+.fulls figure img
+{
+  height: 60vh;
+}
+/*end rules article class fulls*/
+
 
   /*rules section class temoignage1*/
 
@@ -204,10 +221,6 @@ h1
   .temoignage3
   {
     display: flex;
-  }
-  .tex
-  {
-    width: 65%;
   }
   /*end rules section class temoignage3*/
 
