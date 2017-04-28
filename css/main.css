@@ -200,10 +200,15 @@ header {
 .blog {
     margin-top: 100px;
     min-height: 730px;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: flex;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
 }
 
 .blog figure {
@@ -230,8 +235,8 @@ p {
 
 /*rules common*/
 
-.rotate{
-  image-orientation: 90deg;
+.rotate {
+    image-orientation: 90deg;
 }
 
 .temoignage1 img, .temoignage2 img, .temoignage3 img {
@@ -307,7 +312,36 @@ h1 {
 
 /*end rules page temoignage*/
 
+.presentation figure figcaption {
+    width: 65%;
+}
 
+.presentation figure {
+    display: flex;
+    justify-content: center;
+}
+
+.presentation figure img {
+    width: 315px;
+    height: 315px;
+    margin: auto;
+    margin: 0;
+}
+
+.imglivre{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imglivre img{
+  width: 60%;
+}
+
+.logochinois{
+  margin: 0;
+}
 /* ==========================================================================
                    end of header rules
 ========================================================================== */
@@ -466,15 +500,28 @@ footer ul li i {
     /*-------------------- presentation.html----------------*/
     .presentation figure figcaption {
         width: 65%;
+        margin-left: 20px;
+        vertical-align:middle;
     }
     .presentation figure {
         display: flex;
         justify-content: center;
+        align-items: center;
+        width: 80%;
     }
     .presentation figure img {
         height: 250px;
-        margin-right: 20px;
-        margin-top: 17px;
+    }
+
+    .imglivre{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .imglivre img{
+      width: 60%;
     }
     /* ==========================================================================
                      end of header rules
@@ -505,25 +552,25 @@ footer ul li i {
 }
 
 
-
 /*rules page contact*/
-.formul
-{
-  display: flex;
-  justify-content: space-around;
+
+.formul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.rdv
-{
-  margin: 1em;
-  color: #c3b076;
-  font-size: 20px;
+.rdv {
+    margin: 1em;
+    color: #c3b076;
+    font-size: 20px;
 }
 
-.rdv p
-{
-  margin-top: 1em;
+.rdv p {
+    margin-top: 1em;
 }
+
+
 /*end rules page contact*/
 
 
