@@ -175,6 +175,20 @@ h1
 
 
 /*end rules page temoignage*/
+
+
+
+
+
+
+
+/*rules page contact*/
+.fullscre figure img
+{
+  height: 80vh;
+}
+/*end rules page contact*/
+
 @media (min-width:768px) {
 /*rules page temoignage*/
 
