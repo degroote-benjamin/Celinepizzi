@@ -122,7 +122,6 @@ textarea {
     height: 100vh;
 }
 
-
 .dore {
     width: 100%;
     background-color: #c3b076;
@@ -207,135 +206,87 @@ p {
     margin: 10px;
 }
 
+
 /*--------------------------------- temoignage.html-----------------*/
 
 
 /*rules page temoignage*/
 
 
-
 /*rules common*/
-img
-{
-  width: 100%;
+
+img {
+    width: 100%;
 }
 
-.temoignage1 figure , .temoignage2 figure , .temoignage3 figure
-{
-  width: 30%;
+.temoignage1 figure, .temoignage2 figure, .temoignage3 figure {
+    width: 30%;
 }
 
-.temoignage1 , .temoignage2 , .temoignage3
-{
-  border: #c3b076 solid 3px;
-  border-radius: 3px;
+.temoignage1, .temoignage2, .temoignage3 {
+    border: #c3b076 solid 3px;
+    border-radius: 3px;
 }
 
-.temoignage1 p , .temoignage2 p , .temoignage3 p
-{
-  font-family: 'Press Start 2P', cursive;
-  font-family: 'Indie Flower', cursive;
-  font-family: 'Archivo Black', sans-serif;
-  font-family: 'Palanquin Dark', sans-serif;
+.temoignage1 p, .temoignage2 p, .temoignage3 p {
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
 }
+
+
 /*end rules common*/
 
 
 /*rules section class temoignage1*/
-h1
-{
-  color: #c3b076;
-  font-family: courier;
+
+h1 {
+    color: #c3b076;
+    font-family: courier;
 }
 
-.temoignage1
-{
-  display: flex;
-  flex-wrap: wrap;
+.temoignage1 {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 /*end rules section class temoignage1*/
 
 
 /*rules section class temoignage2*/
-.temoignage2
-{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 1em;
+
+.temoignage2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
 }
+
+
 /*end rules section class temoignage2*/
 
 
 /*rules section class temoignage3*/
-.temoignage3
-{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2em;
+
+.temoignage3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
 }
+
+
 /*end rules section class temoignage3*/
 
-
-.cita
-{
-  color: #c3b076;
-  font-family: 'Press Start 2P', cursive;
-  font-family: 'Indie Flower', cursive;
-  font-size: 20px;
+.cita {
+    color: #c3b076;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
 }
 
 
 /*end rules page temoignage*/
-@media (min-width:768px) {
-/*rules page temoignage*/
-
-/*rules common*/
-.temoignage1 figure , .temoignage2 figure , .temoignage3 figure
-{
-  width: 20%;
-}
-
-.tex
-{
-  width: 65%;
-}
-/*end rules common*/
-
-
-/*rules article class fulls*/
-.fulls figure img
-{
-  height: 60vh;
-}
-/*end rules article class fulls*/
-
-
-  /*rules section class temoignage1*/
-
-  .temoignage1
-  {
-    display: flex;
-  }
-  /*end rules section class temoignage1*/
-
-
-  /*rules section class temoignage2*/
-  .temoignage2
-  {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  /*end rules section class temoignage2*/
-
-
-  /*rules section class temoignage3*/
-  .temoignage3
-  {
-    display: flex;
-  }
-  /*end rules section class temoignage3*/
-
-  /*end rules page temoignage*/
 
 
 /* ==========================================================================
@@ -386,8 +337,6 @@ footer ul li i {
 }
 
 
-
-
 /* ==========================================================================
                                      end of footer rules
 ========================================================================== */
@@ -408,6 +357,37 @@ footer ul li i {
     /* ==========================================================================
                   main rules
   ========================================================================== */
+    /*rules page temoignage*/
+    /*rules common*/
+    .temoignage1 figure, .temoignage2 figure, .temoignage3 figure {
+        width: 20%;
+    }
+    .tex {
+        width: 65%;
+    }
+    /*end rules common*/
+    /*rules article class fulls*/
+    .fulls figure img {
+        height: 60vh;
+    }
+    /*end rules article class fulls*/
+    /*rules section class temoignage1*/
+    .temoignage1 {
+        display: flex;
+    }
+    /*end rules section class temoignage1*/
+    /*rules section class temoignage2*/
+    .temoignage2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    /*end rules section class temoignage2*/
+    /*rules section class temoignage3*/
+    .temoignage3 {
+        display: flex;
+    }
+    /*end rules section class temoignage3*/
+    /*end rules page temoignage*/
     /* ==========================================================================
                      end of main rules
   ========================================================================== */
