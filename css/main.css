@@ -114,13 +114,21 @@ textarea {
 }
 
 .imgacc {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
-.imgacc img{
-height: 100vh;
+.imgacc img {
+    height: 100vh;
 }
+
+
+.dore {
+    width: 100%;
+    background-color: #c3b076;
+}
+
+
 /* ==========================================================================
                    end of common rules
 ========================================================================== */
@@ -174,6 +182,28 @@ header {
 }
 
 
+/*----------------------Blog.html --------------------*/
+
+.blog {
+    margin-top: 100px;
+}
+
+.blog figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog figure figcaption {
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+
 /* ==========================================================================
                    end of header rules
 ========================================================================== */
@@ -220,6 +250,8 @@ footer ul li {
 footer ul li i {
     margin-bottom: 20px;
 }
+
+
 
 
 /* ==========================================================================
@@ -297,6 +329,19 @@ footer ul li i {
     }
     header nav ul a:hover {
         border-bottom: 2px solid #c3b076;
+    }
+    /*-------------------- presentation.html----------------*/
+    .presentation figure figcaption {
+        width: 65%;
+    }
+    .presentation figure {
+        display: flex;
+        justify-content: center;
+    }
+    .presentation figure img {
+        height: 250px;
+        margin-right: 20px;
+        margin-top: 17px;
     }
     /* ==========================================================================
                      end of header rules
