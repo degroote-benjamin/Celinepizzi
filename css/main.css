@@ -109,7 +109,18 @@ textarea {
     padding: 0;
 }
 
+.nomob {
+    display: none;
+}
 
+.imgacc {
+  display: flex;
+  justify-content: center;
+}
+
+.imgacc img{
+height: 100vh;
+}
 /* ==========================================================================
                    end of common rules
 ========================================================================== */
@@ -118,6 +129,49 @@ textarea {
 /* ==========================================================================
                 header rules
 ========================================================================== */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #c3b076;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 
 
 /* ==========================================================================
@@ -203,39 +257,47 @@ footer ul li i {
     /* ==========================================================================
                       common rules
   ========================================================================== */
+    .nopc {
+        display: none;
+    }
+    .nomob {
+        display: block;
+    }
     /* ==========================================================================
                      end of common rules
   ========================================================================== */
     /* ==========================================================================
                   header rules
   ========================================================================== */
-  video {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      height: 100vh;
-      z-index: -100;
-      transform: translateX(-50%) translateY(-50%);
-      background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-      background-size: cover;
-      transition: 1s opacity;
-  }
-
-  header nav ul {
-      list-style-type: none;
-      display: flex;
-      align-items: center;
-      width: 70%;
-      margin: auto;
-      justify-content: space-between;
-  }
-
-  header nav ul li img {
-      height: 100px;
-      width: 150px;
-  }
-
-
+    iframe {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover;
+        transition: 1s opacity;
+    }
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    header nav ul li img {
+        height: 100px;
+        width: 150px;
+    }
+    header nav ul a {
+        color: black;
+        text-decoration: none;
+    }
+    header nav ul a:hover {
+        border-bottom: 2px solid #c3b076;
+    }
     /* ==========================================================================
                      end of header rules
   ========================================================================== */
