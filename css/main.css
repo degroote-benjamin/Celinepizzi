@@ -128,6 +128,19 @@ textarea {
     padding: 23px 0;
 }
 
+.cent {
+    width: 95%;
+    margin: auto;
+}
+
+.center li {
+    text-align: center;
+}
+
+figcaption {
+    text-align: justify;
+}
+
 
 /* ==========================================================================
                    end of common rules
@@ -190,6 +203,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .blog figure {
@@ -216,10 +230,13 @@ p {
 
 /*rules common*/
 
+.rotate{
+  image-orientation: 90deg;
+}
+
 .temoignage1 img, .temoignage2 img, .temoignage3 img {
     width: 100%;
 }
-
 
 .temoignage1 figure, .temoignage2 figure, .temoignage3 figure {
     width: 30%;
