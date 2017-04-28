@@ -11,6 +11,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -18,7 +19,104 @@
 </head>
 
 <body>
-    <!--Début de contenue-->
+  <header>
+        <nav class="nopc">
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Accueil</a>
+                <a href="presentation.html">Presentation</a>
+                <a href="demarche.html">Demarche</a>
+                <a href="accompagnement.html">Accompagnement</a>
+                <a href="temoignage.html">Témoignages</a>
+                <a href="contact.html">Contact</a>
+                <a href="blog.html">Blog</a>
+            </div>
+
+            <span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        </nav>
+
+        <nav class="nomob">
+            <ul>
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="presentation.html">Presentation</a>
+                </li>
+                <li>
+                    <a href="demarche.html">Demarche</a>
+                </li>
+                <li>
+                    <img src="img/logo_CP_1.png" alt="Image du logo">
+                </li>
+                <li>
+                    <a href="accompagnement.html">Accompagnement</a>
+                </li>
+                <li>
+                    <a href="temoignage.html">Témoignages</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="blog">
+        <figure>
+            <img src="img\U85Z0lxOwDoys.gif" width="33%" alt="Gif d'arbre qui pousse">
+            <img src="img\U85Z0lxOwDoys.gif" width="33%" alt="Gif d'arbre qui pousse">
+            <img src="img\U85Z0lxOwDoys.gif" width="33%" alt="Gif d'arbre qui pousse">
+            <figcaption>
+                "J'éfface tout et je recommence. Parce que je considere la création comme une ardoise..."
+                <p>Pierre DAC</p>
+            </figcaption>
+        </figure>
+    </div>
+
+    <section class="dore">
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><i class="fa fa-phone fa-1x" aria-hidden="true"></i></li>
+                    <li>Phone: +963 11 33502300</li>
+                    <li>+963 11 33500600</li>
+                    <li>Fax: +963 11 33502031</li>
+                </ul>
+            </nav>
+
+
+            <nav>
+                <ul>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+                    <li>Diamond Inc </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav>
+
+
+            <nav>
+
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+                    <li>General Inquiries: info@diamond.sy </li>
+                    <li>Sales department: sales@diamond.sy</li>
+                    <li>Technical Support: support@diamond.sy</li>
+                </ul>
+            </nav>
+
+        </footer>
+
+    </section>
+     <!--Début de contenue-->
     <div>
         <figure>
             <img src="img\U85Z0lxOwDoys.gif" width="33%" alt="arbre gif">
@@ -33,7 +131,7 @@
 
 
     <!--fin de contenue-->
-
+   
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
