@@ -505,6 +505,28 @@ footer ul li i {
 }
 
 
+
+/*rules page contact*/
+.formul
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.rdv
+{
+  margin: 1em;
+  color: #c3b076;
+  font-size: 20px;
+}
+
+.rdv p
+{
+  margin-top: 1em;
+}
+/*end rules page contact*/
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
