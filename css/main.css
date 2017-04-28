@@ -487,6 +487,16 @@ footer ul li i {
 }
 
 
+
+/*rules page contact*/
+.formul
+{
+  display: flex;
+  justify-content: space-around;
+}
+/*end rules page contact*/
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
