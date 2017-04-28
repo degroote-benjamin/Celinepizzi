@@ -175,8 +175,43 @@ h1
 
 /*end rules page temoignage*/
 @media (min-width:768px) {
+/*rules page temoignage*/
+
+.temoignage1 figure , .temoignage2 figure , .temoignage3 figure
+{
+  width: 20%;
+}
+
+  /*rules section class temoignage1*/
+
+  .temoignage1
+  {
+    display: flex;
+  }
+  /*end rules section class temoignage1*/
 
 
+  /*rules section class temoignage2*/
+  .temoignage2
+  {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  /*end rules section class temoignage2*/
+
+
+  /*rules section class temoignage3*/
+  .temoignage3
+  {
+    display: flex;
+  }
+  .tex
+  {
+    width: 65%;
+  }
+  /*end rules section class temoignage3*/
+
+  /*end rules page temoignage*/
 
 
 @media (min-width:1024px) {
