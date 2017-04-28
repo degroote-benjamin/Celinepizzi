@@ -104,6 +104,30 @@ textarea {
                     common rules
 ========================================================================== */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nomob {
+    display: none;
+}
+
+.imgacc {
+    display: flex;
+    justify-content: center;
+}
+
+.imgacc img {
+    height: 100vh;
+}
+
+.dore {
+    width: 100%;
+    background-color: #c3b076;
+}
+
+
 /* ==========================================================================
                    end of common rules
 ========================================================================== */
@@ -112,6 +136,158 @@ textarea {
 /* ==========================================================================
                 header rules
 ========================================================================== */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #c3b076;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/*----------------------Blog.html --------------------*/
+
+.blog {
+    margin-top: 100px;
+    min-height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog figure figcaption {
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+
+/*--------------------------------- temoignage.html-----------------*/
+
+
+/*rules page temoignage*/
+
+
+/*rules common*/
+
+.temoignage1 img, .temoignage2 img, .temoignage3 img {
+    width: 100%;
+}
+
+
+.temoignage1 figure, .temoignage2 figure, .temoignage3 figure {
+    width: 30%;
+}
+
+.temoignage1, .temoignage2, .temoignage3 {
+    border: #c3b076 solid 3px;
+    border-radius: 3px;
+}
+
+.temoignage1 p, .temoignage2 p, .temoignage3 p {
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+
+/*end rules common*/
+
+
+/*rules section class temoignage1*/
+
+h1 {
+    color: #c3b076;
+    font-family: courier;
+}
+
+.temoignage1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*end rules section class temoignage1*/
+
+
+/*rules section class temoignage2*/
+
+.temoignage2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+
+/*end rules section class temoignage2*/
+
+
+/*rules section class temoignage3*/
+
+.temoignage3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+
+/*end rules section class temoignage3*/
+
+.cita {
+    color: #c3b076;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+
+/*end rules page temoignage*/
 
 
 /* ==========================================================================
@@ -130,104 +306,185 @@ textarea {
 
 
 /* ==========================================================================
-                            end of footer rules
+                            start of footer rules
 ========================================================================== */
+
+footer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+}
+
+footer nav {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+footer ul {
+    width: 70%;
+    margin: auto;
+    list-style-type: none;
+}
+
+footer ul li {
+    text-align: center;
+}
+
+footer ul li i {
+    margin-bottom: 20px;
+}
 
 
 /* ==========================================================================
                                      end of footer rules
 ========================================================================== */
 
-
-
 @media (min-width:768px) {
-  /* ==========================================================================
+    /* ==========================================================================
                       common rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /* ==========================================================================
                      end of common rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /* ==========================================================================
                   header rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /* ==========================================================================
                      end of header rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /* ==========================================================================
                   main rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /*rules page temoignage*/
+    /*rules common*/
+    .temoignage1 figure, .temoignage2 figure, .temoignage3 figure {
+        width: 20%;
+    }
+    .tex {
+        width: 65%;
+    }
+    /*end rules common*/
+    /*rules article class fulls*/
+    .fulls figure img {
+        height: 60vh;
+    }
+    /*end rules article class fulls*/
+    /*rules section class temoignage1*/
+    .temoignage1 {
+        display: flex;
+    }
+    /*end rules section class temoignage1*/
+    /*rules section class temoignage2*/
+    .temoignage2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    /*end rules section class temoignage2*/
+    /*rules section class temoignage3*/
+    .temoignage3 {
+        display: flex;
+    }
+    /*end rules section class temoignage3*/
+    /*end rules page temoignage*/
+    /* ==========================================================================
                      end of main rules
   ========================================================================== */
-
-
-  /* ==========================================================================
-                              end of footer rules
+    /* ==========================================================================
+                              start of footer rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /* ==========================================================================
                                        end of footer rules
   ========================================================================== */
-
 }
-
-
-
 
 @media (min-width:1024px) {
-  /* ==========================================================================
+    /* ==========================================================================
                       common rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    .nopc {
+        display: none;
+    }
+    .nomob {
+        display: block;
+    }
+    /* ==========================================================================
                      end of common rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /* ==========================================================================
                   header rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    iframe {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover;
+        transition: 1s opacity;
+    }
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    header nav ul li img {
+        height: 100px;
+        width: 150px;
+    }
+    header nav ul a {
+        color: black;
+        text-decoration: none;
+    }
+    header nav ul a:hover {
+        border-bottom: 2px solid #c3b076;
+    }
+    /*-------------------- presentation.html----------------*/
+    .presentation figure figcaption {
+        width: 65%;
+    }
+    .presentation figure {
+        display: flex;
+        justify-content: center;
+    }
+    .presentation figure img {
+        height: 250px;
+        margin-right: 20px;
+        margin-top: 17px;
+    }
+    /* ==========================================================================
                      end of header rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /* ==========================================================================
                   main rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /* ==========================================================================
                      end of main rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    /* ==========================================================================
                               end of footer rules
   ========================================================================== */
-
-
-  /* ==========================================================================
+    footer {
+        flex-direction: row;
+        width: 70%;
+    }
+    footer nav {
+        width: 32%;
+        padding-bottom: 15px;
+    }
+    footer ul {
+        width: 100%;
+    }
+    /* ==========================================================================
                                        end of footer rules
   ========================================================================== */
-
 }
-
-
 
 
 /* ==========================================================================
