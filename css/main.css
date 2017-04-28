@@ -215,9 +215,10 @@ p {
 
 /*rules common*/
 
-img {
+.temoignage1 img, .temoignage2 img, .temoignage3 img {
     width: 100%;
 }
+
 
 .temoignage1 figure, .temoignage2 figure, .temoignage3 figure {
     width: 30%;
