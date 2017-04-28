@@ -2,7 +2,7 @@
 https://degroote-benjamin.github.io/Celinepizzi/. 
 Creation site vitrine coach de vie
 
-##Pages presentes sur le site :
+## Pages presentes sur le site :
 - page d'accueil avec une video
 - page presentation avec texte de presentation + parcours
 - page demarche
@@ -11,12 +11,12 @@ Creation site vitrine coach de vie
 - page contact avec coordonnees et horaires
 - page blog (site en cours d'ecriture)
 
-##Referentiel couleurs : 
+## Referentiel couleurs : 
 - noir
 - blanc
 - dore
 
-##Responsive :
+## Responsive :
 - mobile
 - tablette
 - pc
