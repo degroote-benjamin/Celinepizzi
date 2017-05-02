@@ -4,13 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>Celine pizzi</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" href="favicon.ico" />
     <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -18,8 +20,114 @@
 </head>
 
 <body>
-  
+    <header>
+        <nav class="nopc">
 
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Accueil</a>
+                <a href="presentation.html">Je suis</a>
+                <a href="demarche.html">Ma demarche</a>
+                <a href="accompagnement.html">Accompagnement</a>
+                <a href="temoignage.html">Livre d'or</a>
+                <a href="contact.html">Contact</a>
+                <a href="blog.html">Blog</a>
+            </div>
+
+            <span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        </nav>
+
+        <nav class="nomob">
+            <ul>
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="presentation.html">Je suis</a>
+                </li>
+                <li>
+                    <a href="demarche.html">Ma demarche</a>
+                </li>
+                <li>
+                    <img src="img/logo_CP_1.png" alt="Image du logo">
+                </li>
+                <li>
+                    <a href="accompagnement.html">Accompagnement</a>
+                </li>
+                <li>
+                    <a href="temoignage.html">Livre d'or</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="blog">
+
+
+        <h1>Contact</h1>
+
+        <div class="formul">
+
+
+            <form method="post" action="traitement.php">
+                <p><label for="name">Nom :</label><br><input type="text" name="name" id="name"></p>
+                <p><label for="mail">E-mail :</label><br><input type="mail" name="mail" id="mail"></p>
+                <p><label for="tel">Tel :</label><br><input type="tel" name="tel" id="tel"></p>
+                <p><label for="sujet">Sujet :</label><br><input type="text" name="sujet" id="sujet"></p>
+                <p><label for="message">Message</label><br><textarea name="message" id="message" cols="30" rows="10"></textarea></p>
+                <p><input type="submit" value="Envoyer"></p>
+            </form>
+
+
+
+
+            <aside class="rdv">
+                <p>N° telephone : 0687322087</p>
+                <p>E-mail : contact@celinepizzi.com</p>
+                <p>Horaires : Du lundi au samedi 10h a 19h (sauf le jeudi)</p>
+                <p>Uniquement sur RDV</p>
+
+            </aside>
+        </div>
+    </div>
+
+    <section class="dore">
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><i class="fa fa-phone fa-1x" aria-hidden="true"></i></li>
+                    <li>06 87 32 20 87</li>
+                </ul>
+            </nav>
+
+
+            <nav>
+                <ul>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+                    <li>contact@celinepizzi.com </li>
+                </ul>
+            </nav>
+
+
+            <nav>
+
+                <ul>
+                    <li><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+                </ul>
+            </nav>
+
+        </footer>
+
+    </section>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
