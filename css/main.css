@@ -128,6 +128,19 @@ textarea {
     padding: 23px 0;
 }
 
+.cent {
+    width: 95%;
+    margin: auto;
+}
+
+.center li {
+    text-align: center;
+}
+
+figcaption {
+    text-align: justify;
+}
+
 
 /* ==========================================================================
                    end of common rules
@@ -187,9 +200,15 @@ header {
 .blog {
     margin-top: 100px;
     min-height: 730px;
-    display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
 }
 
 .blog figure {
@@ -216,10 +235,13 @@ p {
 
 /*rules common*/
 
+.rotate {
+    image-orientation: 90deg;
+}
+
 .temoignage1 img, .temoignage2 img, .temoignage3 img {
     width: 100%;
 }
-
 
 .temoignage1 figure, .temoignage2 figure, .temoignage3 figure {
     width: 30%;
@@ -290,7 +312,41 @@ h1 {
 
 /*end rules page temoignage*/
 
+.presentation figure figcaption {
+    width: 65%;
+}
 
+.presentation figure {
+    display: flex;
+    justify-content: center;
+}
+
+.presentation figure img {
+    width: 315px;
+    height: 315px;
+    margin: auto;
+    margin: 0;
+}
+
+.imglivre{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imglivre img{
+  width: 60%;
+}
+
+.logochinois{
+  margin: 0;
+}
+
+.imgaccom{
+  width: 100%;
+  height: 50vh;
+}
 /* ==========================================================================
                    end of header rules
 ========================================================================== */
@@ -449,15 +505,28 @@ footer ul li i {
     /*-------------------- presentation.html----------------*/
     .presentation figure figcaption {
         width: 65%;
+        margin-left: 20px;
+        vertical-align:middle;
     }
     .presentation figure {
         display: flex;
         justify-content: center;
+        align-items: center;
+        width: 80%;
     }
     .presentation figure img {
         height: 250px;
-        margin-right: 20px;
-        margin-top: 17px;
+    }
+
+    .imglivre{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .imglivre img{
+      width: 60%;
     }
     /* ==========================================================================
                      end of header rules
@@ -488,26 +557,28 @@ footer ul li i {
 }
 
 
-
 /*rules page contact*/
-.formul
-{
-  display: flex;
-  justify-content: space-around;
+
+.formul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.rdv
-{
-  margin: 1em;
-  color: #c3b076;
-  font-size: 20px;
+.rdv {
+    margin: 1em;
+    color: #c3b076;
+    font-size: 20px;
 }
 
-.rdv p
-{
-  margin-top: 1em;
+.rdv p {
+    margin-top: 1em;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7a5b4b3b688acb25c23443a21c7c789a7b3197b8
 /*end rules page contact*/
 
 
